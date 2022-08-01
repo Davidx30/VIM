@@ -1,10 +1,6 @@
 #!/bin/bash
 clear
 
-if [[ -d .vim ]]; then
-	mv .vim .vim.old
-fi
-
 echo "[+] Extraindo configuraçoes . . . "
 sleep 2
 mv vimconfig.zip $HOME
