@@ -7,10 +7,8 @@ fi
 
 echo "[+] Extraindo configuraçoes . . . "
 sleep 2
-curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim > /dev/null
-unzip -l vimconfig.zip
-unzip vimconfig > /dev/null
+mv vimconfig.zip $HOME
+unzip ~/vimconfig.zip
 
 echo "[+] Extraindo com sucesso !!"
 sleep 2
